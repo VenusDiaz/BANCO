@@ -1,0 +1,12 @@
+# Ignorar todo
+/src/*
+
+# Pero no ignorar el directorio /src
+!/src/
+
+# Ignorar todo dentro de /src
+/src/*
+
+# Pero no ignorar archivos .cpp y .h dentro de /src
+!/src/*.cpp
+!/src/*.h
